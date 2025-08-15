@@ -1,10 +1,24 @@
-## CLONE
+# GNU Radio 系列视频教程
+
+- [x] GNU Radio 系列教程
+- [x] GNU Radio 附加教程
+- [x] SDR 教程实战
+- [x] SDR 小工具教程
+- [x] 蓝牙收发教程
+
+
+## 克隆项目
 
 ```shell
-git clone git@github.com:oldprogram/gnuradio_demo.git --recurse-submodules
+git clone --recursive https://github.com/oldprogram/gnuradio_demo.git
 ```
 
-**note：** 注意将 git 子模块拉取下来
+如果克隆时，子模块没有拉取成功，则可以再次进入项目目录，尝试重复手动更新子模块命令，直到克隆成功
+
+```shell
+cd gnuradio_demo
+git submodule update --init --recursive
+```
 
 </br>
 
